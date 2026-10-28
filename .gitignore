@@ -1,0 +1,112 @@
+system/vm/mods/*
+.vagrant/
+.vagrant-rig
+.vagrant-legacy
+.vagrant-pipeline
+deploy/*.retry
+.vault_pass.txt
+
+# python
+*.pyc
+htmlcov/
+.coverage
+.ropeproject
+.mypy_cache
+.venv/*
+.tox/
+.python-version
+
+# build
+dist/*
+.cache
+.flowconfig
+
+# NPM
+package.json.cache
+/package-lock.json
+npm-debug.log
+node_modules/
+.npmrc
+npmrc
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+# emacs
+*~
+# vs code
+# Ignore everything in any .vscode directory
+**/.vscode/*
+.history
+# linux
+.directory
+# mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# intellij products
+.idea
+.iml
+*.iml
+*.orig
+
+.sass-cache
+
+# rig
+pubring.gpg~
+pubring.kbx~
+secring.gpg
+terraform.pem
+*.egg-info
+secrets.yml
+secrets.*.yml
+global-service-credentials.yml
+/system/vm/ecrdev.credentials
+/system/keyrings/default/pubring.gpg~
+/system/keyrings/default/pubring.kbx~
+/system/keyrings/default/secring.gpg
+/system/keyrings/admin/pubring.gpg~
+/system/keyrings/admin/pubring.kbx~
+/system/keyrings/admin/secring.gpg
+.terraform
+terraform.tfstate.backup
+ansible/*.retry
+terraform/rig/crash.log
+ubuntu-xenial-16.04-cloudimg-console.log
+ubuntu-bionic-18.04-cloudimg-console.log
+
+# rig dev environment installations
+dev/env
+
+# packer
+packer_cache
+output-virtualbox-ovf
+
+# kitchen
+.kitchen
+.kitchen.local.yml
+.tags
+.tags1
+
+# ipython notebooks
+.ipynb_checkpoints/
+
+# tasty_api
+tasty_api/migrations/*seed.sql
+
+.Rproj.user
+gtags.files
+GPATH
+GRTAGS
+GTAGS
+polls_api/.pytest_cache
+
+plz-out/
+
+# Lighthouse CI
+.lighthouseci
